@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    background-color: black;
+
+}
+
+.header-main {
+    display: flex;
+    height: 150px;
+    margin: 0;
+    margin-top: 0;
+    background: #2D698A;
+    /* justify-content: center; */
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    float: left;
+
+}
+
+h1 {
+    /* text-align: center; */
+    padding-top: 45px;
+    font-size: 45px;
+
+}
+
+aside {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 400px;
+    padding-right: 1cm;
+    height: 860px;
+    /* margin-top: 40px; */
+    background-color: rgb(201, 225, 247);
+}
+
+.aside-h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.aside-ul {}
+
+.aside-li {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    background-color: rgba(73, 145, 168, 0.94);
+    /* width: 68%; */
+    padding-bottom: 20px;
+
+
+}
+
+.fish-card {
+    margin-right: 70px;
+    margin-top: 40px;
+    background-color: rgb(201, 225, 247);
+    height: 380px;
+}
+
+.fish__image {
+    margin-bottom: 12px;
+    height: 220px;
+    width: 180px;
+}
+
+.card-li {
+    list-style: none;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.aside-image {
+    margin-top: 20px;
+}
+
+.scuba-img {
+    float: right;
+    padding-top: 100px;
+    padding-right: 100px;
+    height: 350px;
+    width: 600px;
+}
+
+.tips-section {
+    background-color: rgba(73, 145, 168, 0.94);
+    height: 400px;
+}
+
+.tips-div {
+    float: left;
+
+}
+
+.tips-h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-right: 60px;
+}
+
+.tips-ul {
+    list-style: none;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.tips-li {
+    margin-top: 20px;
+
+}
+
+.locations-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(73, 145, 168, 0.94);
+    font-size: 18px;
+}
+
+.locations-h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.climate-li {
+    /* margin-right: 35px; */
+    width: 280px;
+    margin: 5px;
+
+
+}
+
+.climate-li1 {
+    width: 230px;
+}
+
+.locations-country {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.locations-climate {
+
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
+}
